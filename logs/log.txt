@@ -1,0 +1,262 @@
+Logged action: login 
+User: kirby, ID: 14, IP address: ::1
+ -------- 
+Logged action: login 
+User: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login 
+User: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: logout. 
+Username: kirito, ID: 11, IP: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: comment. 
+Username: kirito, ID: 11, IP address: ::1
+ --------- 
+Logged action: logout. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: comment. 
+Username: asuna, ID: 12, IP address: ::1
+ comment: Gun gale online is a good game, it will be my seccond game.
+ --------- 
+Logged action: comment. 
+Username: asuna, ID: 12, IP address: ::1
+ comment: yuuki is too strong for me, cant beat her.
+ --------- 
+Logged action: comment. 
+Username: asuna, ID: 12, IP address: ::1
+ comment: sinon is the best sniper i have ever seen.
+ --------- 
+Logged action: logout. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: logout. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: logout. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: logout. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: 192.168.100.126
+ -------- 
+Logged action: logout. 
+Username: kirito, ID: 11, IP address: 192.168.100.126
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: 192.168.100.126
+ -------- 
+Logged action: logout. 
+Username: asuna, ID: 12, IP address: 192.168.100.126
+ -------- 
+Logged action: logout. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+::1
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: comment. 
+Username: kirito, ID: 11, IP address: ::1
+ comment: i love swords, i ve seen a girl playing a boxing game recently, i want to try it, but swords probably will do more damage.
+ --------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: 192.168.100.126
+ -------- 
+Logged action: comment. 
+Username: asuna, ID: 12, IP address: 192.168.100.126
+ comment: chicken 🥪 is soo good!!
+ --------- 
+Logged action: logout. 
+Username: asuna, ID: 12, IP address: 192.168.100.126
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: logout. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: logout. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: logout. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: Emanuel, ID: 4, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: comment. 
+Username: kirito, ID: 11, IP address: ::1
+ comment: 
+ --------- 
+Logged action: comment. 
+Username: kirito, ID: 11, IP address: ::1
+ comment: testing if the comment input field will be cleared after posting it.
+ --------- 
+Logged action: comment. 
+Username: kirito, ID: 11, IP address: ::1
+ comment: testing if the comment input field will be cleared after posting it, test 2.
+ --------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: comment. 
+Username: kirito, ID: 11, IP address: ::1
+ comment: testing if the comment input field will be cleared after posting it, test 3.
+ --------- 
+Logged action: comment. 
+Username: kirito, ID: 11, IP address: ::1
+ comment: testing if the comments will be updated automaticaly after commenting in user profile, test 1.
+ --------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: comment. 
+Username: kirito, ID: 11, IP address: ::1
+ comment: testing if the button to comment works correctly, test 1.
+ --------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: comment. 
+Username: asuna, ID: 12, IP address: ::1
+ comment: just saw that 
+ --------- 
+Logged action: comment. 
+Username: asuna, ID: 12, IP address: ::1
+ comment: testing if the server supports a hashtag character, hashtag after 3, 1, 2, 3, 
+ --------- 
+Logged action: comment. 
+Username: asuna, ID: 12, IP address: ::1
+ comment: testing hashtag 
+ --------- 
+Logged action: comment. 
+Username: asuna, ID: 12, IP address: ::1
+ comment: testing XXS <script>alert("XXS")</script>
+ --------- 
+Logged action: comment. 
+Username: asuna, ID: 12, IP address: ::1
+ comment: testing XXS AGAIN <script>alert(""xxs"")</script>
+ --------- 
+Logged action: comment. 
+Username: asuna, ID: 12, IP address: ::1
+ comment: 
+ --------- 
+Logged action: comment. 
+Username: asuna, ID: 12, IP address: ::1
+ comment: testinf if @ works
+ --------- 
+Logged action: comment. 
+Username: asuna, ID: 12, IP address: ::1
+ comment: Just saw this @kirby game, kirby is so cute, i want to play it one day.
+ --------- 
+Logged action: logout. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 

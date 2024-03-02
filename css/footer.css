@@ -1,0 +1,7 @@
+footer p{
+    display: block;
+    margin: 50px auto;
+    color: black;
+    width: fit-content;
+    position: relative;
+}

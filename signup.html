@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/sign-up.css">
+        <title>Sign up</title>
+        <body>
+            <header>
+                <a href="index.php"><img src="images/logo.png" class="logo"></a>
+                <div class="header-links">
+                    <a href="login.html">Login</a>
+                    <a href="#">About us</a>
+                </div>
+            </div>
+            </header>
+            <main>
+                <h1>Sign up</h1>
+                <!-- users can sign up using the form bellow-->
+                <form method="post" action="php/signup.php">
+                    <fieldset>
+                    <legend>Sign up form</legend>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" minlength="3" maxlength="24">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="passwd">
+                    <label for="password-confirm">Confirm you password:</label>
+                    <input type="password" id="password-confirm">
+                    <label>Gender:</label>
+                    <div class="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                    </div>
+                    
+                    <input type="submit" value="Sign up">
+                    </fieldset>
+                </form>
+            </main>
+            <footer>
+                <p>Page created by Lucas E. C. M. Mendonça</p>
+            </footer>
+        </body>
+    </head>
+</html>

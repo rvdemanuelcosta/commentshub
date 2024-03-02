@@ -1,0 +1,34 @@
+// TO DO
+// add "//-DONE-//" finished tasks
+[ WAITING ] make the search box work, search for users.
+[ WAITING ] make the search box search for comments. "select * from comments where comment like 'chocolate';" display in a page.
+[ WAITING ] fix inssue that allow multiple devices logged in the same account.
+[ WAITING ] make users add a security question to help protecting their accounts.
+[ WAITING ] fix path to some files, use $_SERVER['HTTP_HOST'] instead of the especific file path like "../folder/file.ext".
+[ WAITING ] Add a script that will check IP addresses used most used by users, if logging from a different IP address, ask a security question.
+[ WAITING ] Add 2 buttons to the user profile page, 1 my comments, 2 tagged comments, on click it will load the comments where the string @username was found, or the comments
+            that the user made.
+
+[ A T E N T I O N ]
+[ future bug ] when using a script to automaticaly make changes to old user accounts with the config_old_user.php, must be used carefuly becouse it can
+[ future bug ] replace users data, for exemple, while checking if all users have a pfp, it is possible to replace the user selected pfp with a default, 
+[ future bug ] there are some users that have a old default pfp, this picture was updated, if a user change its picture and the server tries to replace the picture it
+[ future bug ] can replace the user preference of pfp, recommend to ovoid it by checking if the user have manualy changed its pfp before, if 1 and not 0, then modifie it.
+
+
+[ D O N E ]
+[ DONE ] make the comment form work without updating the page using javascript and php.
+-------------
+[ DONE ] Show users comments on their profile page.
+[ DONE ] make the server log informations about users login and actions while logged.
+[ DONE ] replace the cookie username for section and use php section start.
+-----------------
+[ DONE ] fix index page comments conflict with the footer.    
+[ DONE ] fix index page profile pictures are not setup.
+[ DONE ] confirm if there is or not a bug in index that makes some users or all of the users profile picture not display.
+[ DONE ] find a way to order the database selected results from end to the beginning. 0 1 2... ...2 1 0, use it to display recent comments first.
+---------
+[ DONE ] check if the user gender is male or female and select a pfp based on it.    
+[ DONE ] (md5 hash) Encrypt/encode or hash users passwords.
+[ DONE ] Add 2 default options for cover photos.
+[ DONE ] Add a form to users upload their comments to the database.

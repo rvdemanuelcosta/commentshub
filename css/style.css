@@ -1,0 +1,12 @@
+.margin-h-auto{
+    margin: 0px auto;
+}
+.fit-content-w{
+    width: fit-content;
+}
+.vw-50{
+    width: 50vw;
+}
+.fit-content-h{
+    height: fit-content;
+}

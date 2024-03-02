@@ -1,0 +1,68 @@
+main{
+    width:100vw;
+    justify-content: center;
+    display: grid;
+    padding: 10px;
+    margin: auto;
+}
+body{
+    background-color: white;
+}
+
+
+main .login-form{
+    
+    display: grid;
+    width: 50vw;
+    border-radius: 20px;
+    padding: 20px;
+    border: solid 2px;
+    border-color: rgb(0, 72, 226);
+    background-color: white;
+    /*background-color: rgb(162, 183, 214); */
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.308);
+    justify-content: center;
+}
+main .login-form a{
+    margin: 0 20px;
+}
+main .login-form input[type=email]{
+    width: 75%;
+    height: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-image: linear-gradient(white 68%, blue 72%, white 50%)
+    
+}
+main .login-form input[type=password]{
+    width: 75%;
+    height: 30px;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(white 68%, blue 72%, white 50%);
+}
+fieldset{
+    border: none;
+}
+fieldset legend{
+    font-size: 20px;
+}
+main .login-form input[type=submit]{
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    border-radius: 20px;
+}
+main .login-form label{
+    margin: auto;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}

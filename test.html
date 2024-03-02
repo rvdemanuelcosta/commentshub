@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/user_profile.css">
+        <title>Teste</title></head>
+    <body onload="loadComments()">
+        <main>
+            <input type="button" onclick="loadComments()" value="Reload">
+            <div class="comment-section" id="commentSection" style="height: 98vh; width: 98vw;">
+                <script>
+                    function loadComments(){
+                        
+                        var xmlhttp = new XMLHttpRequest();
+                        xmlhttp.onreadystatechange = function() {
+                            if (this.readyState == 4 && this.status == 200){
+                                console.log("hello");
+                            document.getElementById("commentSection").innerHTML = this.responseText;
+                        }};
+                        xmlhttp.open("GET", "php/loadUserComments.php", true);
+                        xmlhttp.send();   
+                    }
+                    
+                </script>
+            </div>
+        </main>
+        
+    </body>
+</html>

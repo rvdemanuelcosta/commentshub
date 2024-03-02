@@ -1,0 +1,13 @@
+What is?
+a website
+about what?
+studies
+what can users do?
+users can create an account and login, choose a study category and create notes about a especific topic, for exemple, IT > Cyber security > tools > nmap > note about nmap. books > autor > book name > note/page > note
+
+objective?
+users can see public notes from others to help them study or share their toghts about something, allowing them to see from others POV.
+
+the site should use html, css and javascript, also a database with or no sql to store the users data.
+
+the visual should be simple and clean like a empty page of a notepad, initialy the website can have a top menu with links to important pages, like login, sign up, profile, about us and others. latter on, it would be interesting to create something like a for you page with suggested content based on users liked and viewed content, a home page with trending content, a following page with content from people that the user follows, a like button, an icon next to popular users, users get "popular" after reaching the required number of views or likes, verified icon for people that are very popular and to make sure that someone will not act as another user.
