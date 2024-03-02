@@ -12,18 +12,18 @@
         <script src="js/loadAllComments.js"></script>
         <?php include "php/db_connect.php";?>
 
-        <title>Crowd Comments</title>
+        <title>Comments hub</title>
     </head>
     <body onload="loadComments()">
         <header>
             <?php include "php/header.php";?>
         </header>
         <main>
-            <h1>Welcome to Crowd Comments</h1>
+            <h1>Welcome to Comments Hub.</h1>
             <h2>Share you comments about anything, clothes, books, movies, 
                 animes and many others things.
             </h2>
-            <p>Login or create an account with the links below to have access to 
+            <p>Login or create an account to have access to 
                 all features available.
             </p>
             <div class="content-preview">
