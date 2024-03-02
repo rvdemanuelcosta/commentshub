@@ -9,6 +9,8 @@
 
     $conn = new mysqli($server, $username, $pass, $database);
     $result = $conn->query($sql);
+    $default_path = "./users/default/";
+    $default_path_default = "./users/default";
         /////////////// BE CAREFULL WHILE USING THIS CODE, IT WILL HASH USERS PASSWORD IN THE DATABASE.
     /*
     while($row = $result->fetch_assoc()){
@@ -70,7 +72,22 @@
         */
     // DELETE USERS PERSONAL FILES. [ SUPOSED TO HELP REPLACING]
 
-
-
+    // delete, copy or replace users public profiles.
+    function updatePublicProfiles(){
+        global $result, $default_path, $default_path_default;
+        while($row = $result->fetch_assoc()){
+            if(file_exists("./users/" . $row['username'] . "/public_profile.php")){
+                echo "PUBLIC PROFILE ALREADY EXISTS <br>";
+                // UNCOMENT TO REPLACE 
+                //unlink("./users/" . $row['username'] . "/public_profile.php");
+                //copy("$default_path/public_profile.php", ".users/" . $row['username'] . "/public_profile.php");
+            } else {
+                copy("$default_path_default/public_profile.php", "./users/" . $row['username'] . "/public_profile.php");
+                echo "CREATED USER PUBLIC PROFILE.<br>";
+            }
+        }
+        
+    }
+    updatePublicProfiles();
     $conn->close();
 ?>
