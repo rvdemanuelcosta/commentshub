@@ -14,7 +14,7 @@ echo "
                 else 
                 {
                     
-                    echo "<img src='$user_pfp.png' id='user_pfp'><a href=" . $server_path . "/php/profile.php" . " class='fit_text'>" . $_SESSION['username'] ."</a>
+                    echo "<img src='$user_pfp' id='user_pfp'><a href=" . $server_path . "/php/profile.php" . " class='fit_text'>" . $_SESSION['username'] ."</a>
                     <a href='" . $server_path . "/php/logout.php'>Log out</a>";
                 }
                 echo "<a href='#'>About us</a>
