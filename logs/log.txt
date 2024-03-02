@@ -310,3 +310,9 @@ Username: [], ID: 16, IP address: ::1
 Logged action: login. 
 Username: [], ID: 16, IP address: ::1
  -------- 
+Logged action: logout. 
+Username: [], ID: 16, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
