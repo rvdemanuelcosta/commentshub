@@ -1,0 +1,15 @@
+If changing the files to another folder in the server.
+some references to files in the code can be affected by moving the file to another folder or subfolder.
+for exemplo:
+if the server root folder is "c:/xampp/htdocs/" and the files are inside of the "commentshub" folder. to access some files the link must be
+localhost/commentshub/..., if the files are directly placed in the "htdocs" folder, the link mus be localhost/..., some files may be affected by this
+change, to fix it some changes must be made in some files.
+files that require change are:
+php/header.php.
+change: change the server_path string after $_SERVER['HTTP_HOST'] to the project root folder where index.php is at.
+    $server_path = "http://" . $_SERVER['HTTP_HOST'] . "/commentshub";
+
+users/*/public_profile.php
+change: users_path to reach the php folder.
+    var users_path = "/commentshub/php/";
+note: all users public_profile must be modified having the user default public_profile.php as a template.
