@@ -23,8 +23,8 @@
     ?>
     </header>
     <main>
-        
-        <div class="user_profile_header" style=<?php echo "background-image:url('../users/" . $_SESSION['username'] . "/cover.png');";?>>
+    
+        <div class="user_profile_header" style="<?php echo "background-image:url('../users/" . $_SESSION['username'] . "/cover.png');";?>">
             <div class="pfp"><?php 
                 echo "<img class='usr_pfp' src='../users/" . $_SESSION['username'] . "/pfp.png'>";?>
             </div>
