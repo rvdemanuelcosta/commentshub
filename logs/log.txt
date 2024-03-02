@@ -260,3 +260,20 @@ Username: asuna, ID: 12, IP address: ::1
 Logged action: logout. 
 Username: asuna, ID: 12, IP address: ::1
  -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: comment. 
+Username: kirito, ID: 11, IP address: ::1
+ comment: testing if the comment form works after moving the project to another repository.
+ --------- 
+Logged action: logout. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: 『 』, ID: 16, IP address: ::1
+ -------- 
+Logged action: comment. 
+Username: 『 』, ID: 16, IP address: ::1
+ comment: Chess is the best strategy game ever made.
+ --------- 
