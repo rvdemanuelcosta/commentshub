@@ -1,15 +1,5 @@
 <?php include "section.php";
-$server_path = "http://" . $_SERVER['HTTP_HOST'] . "/WebDevelopment/simple/crowd-comments/site";
-// TO DELETE BELLOW
-/*
-if(substr(__DIR__, -3) === 'php'){
-    $project_root = dirname(__DIR__);
-}
-else if (substr(__DIR__, -4) === 'site'){
-    echo "root " . __DIR__;
-}
-*/
-// TO DELETE ABOVE
+$server_path = "http://" . $_SERVER['HTTP_HOST'] . "/commentshub";
 echo "
 <a href='$server_path/index.php' id='logo'><img src='$server_path/images/logo.png' class='logo'></a>
     <div>
