@@ -277,3 +277,36 @@ Logged action: comment.
 Username: 『 』, ID: 16, IP address: ::1
  comment: Chess is the best strategy game ever made.
  --------- 
+Logged action: login. 
+Username: 『 』, ID: 16, IP address: ::1
+ -------- 
+Logged action: logout. 
+Username: 『 』, ID: 16, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: logout. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: 『 』, ID: 16, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: logout. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: 『 』, ID: 16, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: [ ], ID: 16, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: [], ID: 16, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: [], ID: 16, IP address: ::1
+ -------- 
