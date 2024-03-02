@@ -17,7 +17,7 @@
     <script>
         console.log("siii");
        // var username = "<?php echo basename(dirname(__FILE__));?>";
-       var users_path = "/WebDevelopment/simple/crowd-comments/site/php/";
+       var users_path = "/commentshub/php/";
         var public_profile = users_path + "loadPublicUser.php"
         console.log(public_profile);
         var username = "<?php echo $username;?>";

@@ -9,13 +9,15 @@
         <link rel="stylesheet" href="../../css/style.css">
         <link rel="stylesheet" href="../../css/buttons.css">
         <link rel="stylesheet" href="../../css/header.css">
+        <link rel="stylesheet" href="../../css/footer.css">
         <title id="title">
             username
         </title>
     </head>
     <script>
+        console.log("siii");
        // var username = "<?php echo basename(dirname(__FILE__));?>";
-       var users_path = "/WebDevelopment/simple/crowd-comments/site/php/";
+       var users_path = "/commentshub/php/";
         var public_profile = users_path + "loadPublicUser.php"
         console.log(public_profile);
         var username = "<?php echo $username;?>";
@@ -26,6 +28,6 @@
         <main id="profile-main">
 
         </main>
-        <footer class="vw-50 margin-h-auto"><?php include "../../php/footer.php"?></footer>
+        <footer><?php include "../../php/footer.php"?></footer>
     </body>
 </html>
