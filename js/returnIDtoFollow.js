@@ -1,5 +1,6 @@
 
-function getIdToFollow(){
+async function getIdToFollow(){
+    
     console.log('trying to get id to follow from js code.');
     var xmlhttp = new XMLHttpRequest();
     var id;

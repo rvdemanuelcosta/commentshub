@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php session_start();
+<?php
 $username = $_GET['username'];
 ?>
 <html>
@@ -25,7 +25,7 @@ $username = $_GET['username'];
         var public_profile = users_path + "loadPublicUser.php"
         var username = "<?php echo $username;?>"; 
     </script>
-    <body onload="loadPublicUser(public_profile, username); getIdToFollow()">
+    <body onload="loadPublicUser(public_profile, username); setTimeout(getIdToFollow, 1000)">
         <header><?php include "../../php/header.php";?></header>
         <main id="profile-main">
 
