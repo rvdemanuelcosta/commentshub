@@ -367,3 +367,27 @@ Username: asuna, ID: 12, IP address: ::1
 Logged action: login. 
 Username: kirito, ID: 11, IP address: ::1
  -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+
+        The user kirito followed the user id 4. 
+ -------- Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 1. 
+ -------- Logged action: logout. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: julia, ID: 5, IP address: ::1
+ -------- 
+Logged action: comment. 
+Username: julia, ID: 5, IP address: ::1
+ comment: Neeko is the best decision!, Neeko was my favorite league of legends champion.
+ --------- 
+Logged Action: Followed a user.
+Username: julia, ID: 5, IP address: ::1 
+The user julia followed the user id 12. 
+ -------- 
