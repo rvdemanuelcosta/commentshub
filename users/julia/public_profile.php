@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<?php $username = $_GET['username'];?>
+<?php session_start();
+$username = $_GET['username'];
+?>
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +12,20 @@
         <link rel="stylesheet" href="../../css/buttons.css">
         <link rel="stylesheet" href="../../css/header.css">
         <link rel="stylesheet" href="../../css/footer.css">
+        <script src="../../js/followUser.js"></script>
+        <script src="../../js/returnIDtoFollow.js"></script>
+        <script src="../../js/followUser.js"></script>
         <title id="title">
             username
         </title>
     </head>
     <script>
-        console.log("siii");
        // var username = "<?php echo basename(dirname(__FILE__));?>";
        var users_path = "/commentshub/php/";
         var public_profile = users_path + "loadPublicUser.php"
-        console.log(public_profile);
-        var username = "<?php echo $username;?>";
-        console.log(username);
+        var username = "<?php echo $username;?>"; 
     </script>
-    <body onload="loadPublicUser(public_profile, username)">
+    <body onload="loadPublicUser(public_profile, username); getIdToFollow()">
         <header><?php include "../../php/header.php";?></header>
         <main id="profile-main">
 
