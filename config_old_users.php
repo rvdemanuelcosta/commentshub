@@ -76,7 +76,7 @@
     function updatePublicProfiles(){
         global $result, $default_path, $default_path_default;
         while($row = $result->fetch_assoc()){
-            if(file_exists("./users/" . $row['username'] . "/public_profile.php")){
+            if(file_exists("./users/" . $row['username'] . "/public_profile.php") && $row['username'] != "default"){
                 echo "PUBLIC PROFILE ALREADY EXISTS <br>";
                 // UNCOMENT TO REPLACE 
                 //unlink("./users/" . $row['username'] . "/public_profile.php");
