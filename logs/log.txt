@@ -391,3 +391,61 @@ Logged Action: Followed a user.
 Username: julia, ID: 5, IP address: ::1 
 The user julia followed the user id 12. 
  -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 5. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 5. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 5. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 5. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 5. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 5. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 5. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 5. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 5. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 5. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 5. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 5. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 12. 
+ -------- 
