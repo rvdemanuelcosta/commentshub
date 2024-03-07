@@ -5,9 +5,12 @@ function followUser(follower){
     let reque = "http://localhost/commentshub/php/followUser.php?followed=" + followed +"&follower=" + follower;
     xmlhttpFollow.onreadystatechange = function(){
         if(this.readyState == 4 && this.status == 200){
-            alert("user followed.");
-            document.getElementById("followButton").innerHTML = "Unfollow";
-            document.getElementById("followButton").setAttribute("onclick", "unfollow(" + follower + ")")
+            alert(this.responseText);
+            if(this.responseText == "User followed."){
+                document.getElementById("followButton").innerHTML = "Unfollow";
+                document.getElementById("followButton").setAttribute("onclick", "unfollow(" + follower + ")")
+            }
+            
         }
     };
 
