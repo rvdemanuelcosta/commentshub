@@ -38,7 +38,7 @@ if(isset($_SESSION['id'])){
 }
 
 if($isFollowing){
-    $followbts = "<a class='link-bt' onclick='unfollow()' name='followid' id='followButton'>Unfollow</a>";
+    $followbts = "<a class='link-bt' onclick='unfollow($_SESSION[id])' name='followid' id='followButton'>Unfollow</a>";
 }
 else {
     $followbts = "<a class='link-bt' onclick='$followFunction' name='followid' id='followButton'>Follow</a>";

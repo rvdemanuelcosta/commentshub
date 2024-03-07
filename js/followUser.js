@@ -5,8 +5,9 @@ function followUser(follower){
     let reque = "http://localhost/commentshub/php/followUser.php?followed=" + followed +"&follower=" + follower;
     xmlhttpFollow.onreadystatechange = function(){
         if(this.readyState == 4 && this.status == 200){
-            console.log("user followed.");
+            alert("user followed.");
             document.getElementById("followButton").innerHTML = "Unfollow";
+            document.getElementById("followButton").setAttribute("onclick", "unfollow(" + follower + ")")
         }
     };
 
@@ -18,9 +19,16 @@ function loginToFollow(){
     alert("You have to be logged in to follow users.");
 }
 
-function unfollow(){
-
-    // code to unfollow bellow
-    alert("unfollowed");
-    console.log("unfollowing")
+function unfollow(follower){
+    let xmlhttpUnfollow =  new  XMLHttpRequest();
+    let followed = document.getElementById("followButton").getAttribute("value");
+    xmlhttpUnfollow.onreadystatechange = function(){
+        if((this.readyState == 4 && this.status == 200)){
+            alert("unfollowed");
+            document.getElementById("followButton").innerHTML = "follow";
+            document.getElementById("followButton").setAttribute("onclick", "followUser(" + follower +")")
+        }
+    };
+    xmlhttpUnfollow.open("GET", "http://localhost/commentshub/php/unfollowUser.php?followed=" + followed + "&follower=" + follower, true);
+    xmlhttpUnfollow.send();
 }
