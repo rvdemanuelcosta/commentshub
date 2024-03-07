@@ -8,7 +8,7 @@
 [ WAITING ] Add a script that will check IP addresses used most used by users, if logging from a different IP address, ask a security question.
 [ WAITING ] Add 2 buttons to the user profile page, 1 my comments, 2 tagged comments, on click it will load the comments where the string @username was found, or the comments
             that the user made.
-[ WAITING ] fix bug that allow users to follow multiple times the same user.
+
 
 
 
@@ -23,6 +23,8 @@
 
 
 [ D O N E ]
+[ DONE ] fix bug that allow users to follow multiple times the same user.
+[ DONE ] fix a bug that allow users to follow their own accounts.
 [ DONE ] add code that delete database entry when users unfollow.
 [ DONE ] make the comment form work without updating the page using javascript and php.
 -------------
