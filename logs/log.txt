@@ -483,3 +483,18 @@ Logged Action: Followed a user.
 Username: kirito, ID: 11, IP address: ::1 
 The user kirito followed the user id 12. 
  -------- 
+Logged action: login. 
+Username: Emanuel, ID: 4, IP address: ::1
+ -------- 
+Logged action: comment. 
+Username: Emanuel, ID: 4, IP address: ::1
+ comment: My opinion about k-pop changed, i am starting to like it.
+ --------- 
+Logged action: comment. 
+Username: Emanuel, ID: 4, IP address: ::1
+ comment: i thought web dev would be easier, my code is really bugged, gonna keep it like that for now :)
+ --------- 
+Logged Action: Followed a user.
+Username: Emanuel, ID: 4, IP address: ::1 
+The user Emanuel followed the user id 11. 
+ -------- 

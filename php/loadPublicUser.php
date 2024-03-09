@@ -28,7 +28,6 @@ if(isset($_SESSION['id'])){
     $followResult = $checkFollowState->query($query);
     $followEntry = $followResult->fetch_assoc();
     if(isset($followEntry['id']) && $followEntry['id'] != null){
-        echo "entry in followers is: " . $followEntry['id'];
         $isFollowing = true;
     }
     else{

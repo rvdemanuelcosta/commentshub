@@ -1,3 +1,7 @@
+<?php session_start();
+if(isset($_SESSION['id'])){
+    $uid = "'$_SESSION[id]'";
+}?>
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
@@ -14,7 +18,7 @@
         </header>
         <main>
             <div class="margin-h-auto fit-content-w">
-                <a class="link-bt">Following</a> 
+                <a class="link-bt" onclick="ldFollowingCMTs(<?php ?>)">Following</a> 
                 <a class="link-bt">Tranding</a>
                 <a class="link-bt" onclick="loadComments()">All comments</a>
             </div>
