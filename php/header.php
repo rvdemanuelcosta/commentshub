@@ -13,7 +13,7 @@ echo "
                 }
                 else 
                 {
-                    
+                    echo "<a href='$server_path/home.php'>home</a>";
                     echo "<img src='$user_pfp' id='user_pfp'><a href=" . $server_path . "/php/profile.php" . " class='fit_text'>" . $_SESSION['username'] ."</a>
                     <a href='" . $server_path . "/php/logout.php'>Log out</a>";
                 }
