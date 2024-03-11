@@ -498,3 +498,49 @@ Logged Action: Followed a user.
 Username: Emanuel, ID: 4, IP address: ::1 
 The user Emanuel followed the user id 11. 
  -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 5. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id null. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 4. 
+ -------- 
+Logged Action: Followed a user.
+Username: kirito, ID: 11, IP address: ::1 
+The user kirito followed the user id 12. 
+ -------- 
+Logged action: logout. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged Action: Followed a user.
+Username: asuna, ID: 12, IP address: ::1 
+The user asuna followed the user id 11. 
+ -------- 
+Logged Action: Followed a user.
+Username: asuna, ID: 12, IP address: ::1 
+The user asuna followed the user id 4. 
+ -------- 
+Logged Action: Followed a user.
+Username: asuna, ID: 12, IP address: ::1 
+The user asuna followed the user id 1. 
+ -------- 
+Logged action: login. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: logout. 
+Username: kirito, ID: 11, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
