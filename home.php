@@ -11,9 +11,10 @@ if(isset($_SESSION['id'])){
         <link rel="stylesheet" href="css/buttons.css">
         <link rel="stylesheet" href="css/style.css">
         <script src="js/loadAllComments.js"></script>
+        <script src="js/ldFollowingCMTs.js"></script>
         <title>Home</title>
     </head>
-    <body>
+    <body onload="ldFollowingCMTs()">
         <header><?php include "php/header.php";?>
         </header>
         <main>
