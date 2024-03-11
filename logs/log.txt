@@ -544,3 +544,35 @@ Username: kirito, ID: 11, IP address: ::1
 Logged action: login. 
 Username: asuna, ID: 12, IP address: ::1
  -------- 
+Logged Action: Followed a user.
+Username: asuna, ID: 12, IP address: ::1 
+The user asuna followed the user id 5. 
+ -------- 
+Logged action: logout. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: Emanuel, ID: 4, IP address: ::1
+ -------- 
+Logged action: comment. 
+Username: Emanuel, ID: 4, IP address: ::1
+ comment: 
+ --------- 
+Logged action: comment. 
+Username: Emanuel, ID: 4, IP address: ::1
+ comment: i HATE BURNOUT 
+ --------- 
+Logged action: comment. 
+Username: Emanuel, ID: 4, IP address: ::1
+ comment: HATE BURNOUT 
+ --------- 
+Logged action: comment. 
+Username: Emanuel, ID: 4, IP address: ::1
+ comment: 💢I HATE BURNOUT 🔥
+ --------- 
+Logged action: logout. 
+Username: Emanuel, ID: 4, IP address: ::1
+ -------- 
+Logged action: login. 
+Username: asuna, ID: 12, IP address: ::1
+ -------- 

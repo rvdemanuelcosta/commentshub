@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 10/03/2024 às 00:23
+-- Tempo de geração: 11/03/2024 às 01:42
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -62,7 +62,8 @@ INSERT INTO `comments` (`id`, `username`, `comment`) VALUES
 (22, '[]', 'Chess is the best strategy game ever made.'),
 (23, 'julia', 'Neeko is the best decision!, Neeko was my favorite league of legends champion.'),
 (24, 'Emanuel', 'My opinion about k-pop changed, i am starting to like it.'),
-(25, 'Emanuel', 'i thought web dev would be easier, my code is really bugged, gonna keep it like that for now :)');
+(25, 'Emanuel', 'i thought web dev would be easier, my code is really bugged, gonna keep it like that for now :)'),
+(26, 'Emanuel', '💢I HATE BURNOUT 🔥');
 
 -- --------------------------------------------------------
 
@@ -83,7 +84,14 @@ CREATE TABLE `followers` (
 
 INSERT INTO `followers` (`id`, `followed_id`, `follower_id`, `following_since`) VALUES
 (1, 12, 5, '2024-03-07'),
-(6, 11, 4, '2024-03-10');
+(6, 11, 4, '2024-03-10'),
+(7, 5, 11, '2024-03-10'),
+(9, 4, 11, '2024-03-10'),
+(10, 12, 11, '2024-03-10'),
+(11, 11, 12, '2024-03-11'),
+(12, 4, 12, '2024-03-11'),
+(13, 1, 12, '2024-03-11'),
+(14, 5, 12, '2024-03-11');
 
 -- --------------------------------------------------------
 
@@ -154,13 +162,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de tabela `comments`
 --
 ALTER TABLE `comments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT de tabela `followers`
 --
 ALTER TABLE `followers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT de tabela `users`
