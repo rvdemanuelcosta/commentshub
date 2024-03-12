@@ -55,5 +55,6 @@ if($result->num_rows > 0){
 else { // show something if the user is not following anyone.
     echo "You are not following any users.";
 }
+$con->close();
 
 ?>
