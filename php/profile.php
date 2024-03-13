@@ -33,6 +33,7 @@
             </div>
             <div class="edit_picture_div">
             <!--  -->
+            <input type="button" value="🖉">
             </div>
             <div class="username">
                 <p><?php echo $_SESSION['username'];?></p>
