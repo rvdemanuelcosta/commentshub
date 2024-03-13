@@ -45,3 +45,29 @@ header div.header-links a{
     width: fit-content;
     margin: 20px;
 }
+
+@media only screen and (max-width: 320px){
+    header {
+        margin-bottom: 40px;
+    }
+    header a#logo{
+        margin-right: 10px;
+    }
+    header a img.logo{
+        width: 64px;
+    }
+    header div input[type="text"]{
+        height: 8px;
+        width: 64px;
+    }
+    header div input[type="button"]{
+        height: 32px;
+        width: 43px;
+        font-size: 17px;
+    }
+    header div.header-links{
+        position: absolute;
+        left: 0px;
+        top: 30px;
+    }
+}
