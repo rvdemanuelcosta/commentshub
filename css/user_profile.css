@@ -29,7 +29,6 @@ main div.user_profile_header div.edit_pfp_div{
 main div.user_profile_header div.edit_picture_div{
     width: 3%;
     height: 10%;
-    background-color: yellow;
     float: right;
 }
 main div.user_profile_header div.pfp{
@@ -108,4 +107,14 @@ main div.comment-section div.comment div.pfp{
     display: inline-block;
     margin-right: 10px;
 
+}
+
+@media only screen and (max-width: 320px){
+    #user_pfp{
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: -20px;
+        left: 250px;
+    }
 }
