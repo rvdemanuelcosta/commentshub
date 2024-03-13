@@ -1,6 +1,6 @@
 <?php 
  require 'users_db.php';
- require 'section.php';
+ require 'session.php';
 $email = $_POST['email'];
 $pass = md5($_POST['password']);
 $sql = "SELECT * FROM users WHERE email='$email' AND password='$pass'";

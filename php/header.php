@@ -1,4 +1,4 @@
-<?php include "section.php";
+<?php include "session.php";
 $server_path = "http://" . $_SERVER['HTTP_HOST'] . "/commentshub";
 echo "
 <a href='$server_path/index.php' id='logo'><img src='$server_path/images/logo.png' class='logo'></a>
