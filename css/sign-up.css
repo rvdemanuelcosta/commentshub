@@ -69,13 +69,13 @@ footer p{
     margin: 0 auto;
     
 }
-
+/* small mobile screens */
 @media only screen and (max-width: 320px){
 
     main form fieldset label{
         font-size: 12px;
     }
-    main form fieldset div.gender input[type="radio"]{
+    main form fieldset div.gender inputs[type="radio"]{
         margin-right: 20px;
     }
 }
