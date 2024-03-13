@@ -4,12 +4,12 @@
 [ WAITING ] make the search box search for comments. "select * from comments where comment like 'chocolate';" display in a page.
 [ WAITING ] fix inssue that allow multiple devices logged in the same account.
 [ WAITING ] make users add a security question to help protecting their accounts.
-[ WAITING ] fix path to some files, use $_SERVER['HTTP_HOST'] instead of the especific file path like "../folder/file.ext".
 [ WAITING ] Add a script that will check IP addresses used most used by users, if logging from a different IP address, ask a security question.
 [ WAITING ] Add 2 buttons to the user profile page, 1 my comments, 2 tagged comments, on click it will load the comments where the string @username was found, or the comments
             that the user made.
-
-
+[ WAITING ] Update the logo.
+[ WAITING ] Redesign the login page.
+[ WAITING ] Add the change profile picture and change cover photo buttons.
 
 
 
@@ -23,6 +23,9 @@
 
 
 [ D O N E ]
+
+[ DONE ] fix path to some files, use $_SERVER['HTTP_HOST'] instead of the especific file path like "../folder/file.ext".
+------------------
 [ DONE ] fix bug that allow users to follow multiple times the same user.
 [ DONE ] fix a bug that allow users to follow their own accounts.
 [ DONE ] add code that delete database entry when users unfollow.
