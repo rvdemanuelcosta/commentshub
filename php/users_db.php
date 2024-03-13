@@ -6,7 +6,7 @@ $database = "crowd_comments";
 
 $users_db= new mysqli($server, $username, $password, $database);
 if($users_db->connect_error){
-    die("error connecting to database: " . connect_error);
+    die("error connecting to database: " . $users_db->connect_error);
 }
 echo "Connected to database.";
 ?>
