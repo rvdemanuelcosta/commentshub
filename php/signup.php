@@ -35,7 +35,6 @@ $sql = "INSERT INTO users (username, email, password, gender) VALUES('$_POST[use
 // set up user folder and files in the server.
 if($conn->query($sql) === TRUE){
     mkdir("../users/$_POST[username]");
-    // TO DO
     // check if the user gender is male or female and select a pfp based on it.
     if($_POST['gender'] == 'male'){
         $pfp_path = "../users/default/male/";
