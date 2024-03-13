@@ -1,5 +1,5 @@
 <?php 
-require 'section.php';
+require 'session.php';
     //setcookie('username', '', time() - 36400, '/');
     if(isset($_SESSION['id'])){
         if(isset($_SERVER['HTTP_X_FORWARDED_FOR']) && $_SERVER['HTTP_X_FORWARDED_FOR'] != ''){
