@@ -118,11 +118,38 @@ main div.comment-section div.comment div.pfp{
         left: 250px;
     }
     main div.user_profile_header{
-        height: 48px;
+        height: 64px;
+        width: 100%;
+        margin: 0px;
     }
     main div.user_profile_header p{
         font-size: 22px;
         margin-left: 0px;
         translate: 0px 25px;
+    }
+    main div.user_profile_header div.edit_picture_div{
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        left: 0px;
+    }
+    main div.user_profile_header div.username{
+        line-height: 32px;
+    }
+    main div.comment-area form{
+        width: fit-content;
+        height: fit-content;
+    }
+    main div.comment-area form p{
+        margin-top: 32px;
+    }
+    main div.commnent-area{
+        width: fit-content;
+        margin: 10px 20px;
+    }
+    main div.comment-area form div.comment-box textarea{
+        width: 200px;
+        height: 128px;
+        margin-bottom: 0px;
     }
 }
