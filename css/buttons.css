@@ -18,3 +18,14 @@ a.link-bt:hover{
     background-color: rgb(119, 119, 119);
     cursor:pointer;
 }
+
+div.userButtons{
+    width: fit-content;
+    margin-top: 42px;
+}
+
+@media only screen and (max-width: 320px){
+    a.link-bt{
+        font-size: 13px;
+    }
+}

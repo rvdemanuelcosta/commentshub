@@ -117,4 +117,12 @@ main div.comment-section div.comment div.pfp{
         top: -20px;
         left: 250px;
     }
+    main div.user_profile_header{
+        height: 48px;
+    }
+    main div.user_profile_header p{
+        font-size: 22px;
+        margin-left: 0px;
+        translate: 0px 25px;
+    }
 }

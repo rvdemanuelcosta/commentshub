@@ -51,7 +51,7 @@ else {
             <p>$username</p>
         </div>
     </div>
-    <div class='margin-h-auto vw-50' style='margin-top: 30px;'>
+    <div class='margin-h-auto vw-50 userButtons'>
     
         <p style='display: inline'>$followers_count followers</p>
         $followbts
