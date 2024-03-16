@@ -10,3 +10,9 @@
 .fit-content-h{
     height: fit-content;
 }
+
+@media only screen and (min-width: 321px) and (max-width: 481px){
+    div.load-content{
+        width: 100%;
+    }
+}
