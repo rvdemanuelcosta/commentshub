@@ -117,6 +117,9 @@ main div.comment-section div.comment div.pfp{
         top: -20px;
         left: 250px;
     }
+    main div.comment-section{
+        width: 100%;
+    }
     main div.user_profile_header{
         height: 64px;
         width: 100%;
