@@ -10,8 +10,8 @@
 [ WAITING ] Update the logo.
 [ WAITING ] Redesign the login page.
 [ WAITING ] Add the change profile picture and change cover photo buttons.
-
-
+[ WAITING ] Make pages responsive to ther resolutions.
+[ WAITING ] Test if the confirm password field works in the signup page.
 
 
 
