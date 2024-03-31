@@ -10,10 +10,10 @@
         <link rel="stylesheet" href="css/user_profile.css">
         <link rel="stylesheet" href="css/buttons.css">
         <link rel="stylesheet" href="css/style.css">
-
+        <link rel="stylesheet" href="css/search-result.css">
         <script src="js/loadAllComments.js"></script>
         <?php include "php/db_connect.php";?>
-
+        <script src="js/search.js"></script>
         <title>Comments hub</title>
     </head>
     <body onload="loadComments()">
@@ -28,6 +28,13 @@
             <p>Login or create an account to have access to 
                 all features available.
             </p>
+            <div class=search-result-button>
+                <input type="button" value=">">
+            </div>
+            <div class="search-result">
+                <div class="users-results" id="users-results"></div>
+                <div class="comments-results" id="comments-results"></div>
+            </div>
             <div class="content-preview">
                 <div class="comment-row">
                     <div class="comment">
